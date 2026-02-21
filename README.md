@@ -1,2 +1,17 @@
-# DSA-WITH-CPP
-This repository documents my Data Structures and Algorithms journey using C++. It contains topic-wise problems, optimized solutions, and clean implementations. The goal is to maintain consistency, strengthen problem-solving skills, and build a strong foundation in DSA through regular practice.
+# DSA with C++
+
+This repository contains my Data Structures & Algorithms journey using C++.
+
+## What you'll find here
+- Topic-wise DSA problems
+- Clean and optimized C++ solutions
+- Regular updates as I practice daily
+
+## Language
+- C++
+
+## Platforms
+- LeetCode
+- GFG
+
+Started: Feb 2026 🚀
