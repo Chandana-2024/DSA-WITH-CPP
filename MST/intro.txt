@@ -1,0 +1,49 @@
+Minimum Spanning Tree (MST) – Introduction
+
+A Minimum Spanning Tree (MST) is a concept in graph theory where we connect all vertices of a weighted, undirected graph with the minimum possible total edge weight, without forming any cycles.
+
+In other words, MST creates a tree that:
+
+Connects all vertices
+
+Contains V − 1 edges (where V is number of vertices)
+
+Has no cycles
+
+Has the minimum total edge cost
+
+This problem is commonly solved using Greedy Algorithms, where we always choose the minimum available edge while building the tree.
+
+Why MST is Important
+
+Minimum Spanning Trees are used in many real-world problems such as:
+
+Designing network cables between computers
+
+Road construction between cities with minimum cost
+
+Electrical grid design
+
+Clustering in machine learning
+
+The goal is always to connect everything with the least cost.
+
+Algorithms to Find MST
+
+There are two popular algorithms to find the MST:
+
+Prim's Algorithm – Builds the MST by expanding from a starting vertex.
+
+Kruskal's Algorithm – Builds the MST by selecting the smallest edges first.
+
+Both algorithms follow the Greedy approach, but they work differently internally.
+
+In this section of the DSA series, we will:
+
+Understand the MST concept
+
+Implement Prim’s Algorithm
+
+Implement Kruskal’s Algorithm
+
+Solve LeetCode problems based on MST
