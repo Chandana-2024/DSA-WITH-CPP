@@ -1,0 +1,109 @@
+Prim’s Algorithm
+
+Prim’s Algorithm is a greedy algorithm used to find the Minimum Spanning Tree (MST) of a connected, weighted, undirected graph.
+
+A Minimum Spanning Tree is a tree that:
+
+connects all vertices
+
+has no cycles
+
+has the minimum possible total edge weight
+
+How Prim’s Algorithm Works
+
+Prim’s Algorithm starts from any one vertex and grows the MST step by step.
+
+At each step:
+
+choose the minimum weight edge
+
+the edge must connect a visited vertex to an unvisited vertex
+
+add that edge to the MST
+
+repeat until all vertices are included
+
+Steps of Prim’s Algorithm
+
+Start with any vertex as the initial vertex.
+
+Mark it as visited.
+
+Find the minimum weight edge connecting a visited vertex to an unvisited vertex.
+
+Add this edge to the MST.
+
+Mark the new vertex as visited.
+
+Repeat the process until V - 1 edges are added.
+
+Example
+
+Suppose the graph has vertices: A, B, C, D
+
+Edges:
+
+A-B = 1
+
+A-C = 4
+
+B-C = 2
+
+B-D = 5
+
+C-D = 3
+
+Process
+
+Start from A
+
+Choose A-B (1)
+
+Choose B-C (2)
+
+Choose C-D (3)
+
+MST Edges
+
+A-B = 1
+
+B-C = 2
+
+C-D = 3
+
+Total Cost
+
+1 + 2 + 3 = 6
+
+Time Complexity
+
+Using adjacency matrix: O(V²)
+
+Using priority queue and adjacency list: O(E log V)
+
+Applications of Prim’s Algorithm
+
+Network design
+
+Road construction
+
+Cable wiring
+
+Water pipelines
+
+Minimum cost connection problems
+
+Important Points
+
+Prim’s Algorithm works on connected, weighted, undirected graphs
+
+It always selects the minimum edge
+
+It is a greedy approach
+
+The final result is a Minimum Spanning Tree
+
+Conclusion
+
+Prim’s Algorithm is an efficient method to find the Minimum Spanning Tree of a graph by selecting the smallest possible edge at each step without forming a cycle.
